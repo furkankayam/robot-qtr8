@@ -1,4 +1,5 @@
 spring:
+  port: 8081
   datasource:
     url: ${DATABASE_URL:jdbc:postgresql://192.168.1.85:5432/postgres}
     username: ${DATABASE_USERNAME:postgres}
